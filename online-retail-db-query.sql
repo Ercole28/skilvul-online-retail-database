@@ -115,3 +115,4 @@ ALTER TABLE
     product_reviews ADD FOREIGN KEY(user_id) REFERENCES users(id);
 ALTER TABLE
     product_reviews ADD FOREIGN KEY(product_id) REFERENCES products(id);
+
