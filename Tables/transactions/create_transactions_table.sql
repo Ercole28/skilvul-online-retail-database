@@ -1,7 +1,7 @@
 CREATE TABLE transactions(
     id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     user_id BIGINT NOT NULL,
-    transaction_date DATETIME NOT NULL,
+    transaction_date DATE NOT NULL,
     total_amount BIGINT NOT NULL
 );
 
