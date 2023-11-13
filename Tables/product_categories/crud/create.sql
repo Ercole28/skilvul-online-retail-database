@@ -11,7 +11,7 @@ VALUES
     ('Komputer & Laptop'),
     ('Office'),
     ('Olahraga'),
-    ('Olahraga'),
+    ('Wedding'),
     ('Tiket Travel'),
     ('Dapur'),
     ('Logam Mulia'),
