@@ -1,4 +1,4 @@
--- | --- Case 1 Pelanggan Membeli 3 Barang yang Berbeda --- |
+-- | --- Case 1. Pelanggan Membeli 3 Barang yang Berbeda --- |
 
 -- 1. Buat Transaksi Terlebih Dahulu Pada tanggal 13 November 2023 akan menjadi Id ke 15
 INSERT INTO transactions (user_id, transaction_date, total_amount)
