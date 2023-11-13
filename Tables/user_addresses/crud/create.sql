@@ -12,4 +12,5 @@ VALUES
     (6, 'Kos Malang', 'Kost Apik 251 Raya Candi Tipe B Sukun Malang Sukun', 'Malang', 'Jawa Timur', '10240', 'Indonesia'),
     (7, 'Home', 'Warakas No.16', 'Jakarta Utara', 'DKI Jakarta', '14370', 'Indonesia'),
     (8, 'My Home', 'Jl. Jeruk Nipis IV', 'Jakarta Barat', 'DKI Jakarta', '11470', 'Indonesia'),
+    (9, 'My World', 'Jl. Raya Jatiwaringin No.62, Jaticempaka', 'Kota Bekasi', 'Jawa Barat', '17411', 'Indonesia'),
     (10, 'My Home Sweet Home', 'Jl. Raya Jatiwaringin No.62, Jaticempaka', 'Kota Bekasi', 'Jawa Barat', '17411', 'Indonesia');
