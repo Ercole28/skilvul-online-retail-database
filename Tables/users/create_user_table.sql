@@ -3,7 +3,7 @@ CREATE TABLE users(
     name VARCHAR(255) NOT NULL,
     username VARCHAR(255) NOT NULL,
     email VARCHAR(255) NOT NULL,
-    phone BIGINT NOT NULL,
+    phone VARCHAR(25) NOT NULL,
     gender ENUM('MALE', 'FEMALE') NOT NULL,
     UNIQUE (username)
 );
