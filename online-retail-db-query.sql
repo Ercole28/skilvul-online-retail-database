@@ -1,3 +1,4 @@
+-- Table Creation
 CREATE TABLE users(
     id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
@@ -72,6 +73,7 @@ CREATE TABLE product_reviews(
     review_date DATETIME NOT NULL
 );
 
+-- Drop Table
 DROP TABLE users;
 DROP TABLE user_addresses;
 DROP TABLE transactions;
@@ -83,10 +85,10 @@ DROP TABLE product_categories;
 DROP TABLE product_category_map;
 DROP TABLE product_reviews;
 
+-- Show All Tables
 SHOW TABLES;
-DESC users;
-DESC shipments;
 
+-- Alter Table for Foreign Key
 ALTER TABLE
     user_addresses ADD FOREIGN KEY(user_id) REFERENCES users(id);
 
