@@ -1,0 +1,1 @@
+DELETE FROM user_addresses WHERE address_name = 'Sekolah SMA';
