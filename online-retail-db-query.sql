@@ -64,14 +64,6 @@ CREATE TABLE product_category_map(
     product_id BIGINT NOT NULL,
     category_id BIGINT NOT NULL
 );
-CREATE TABLE product_reviews(
-    id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    user_id BIGINT NOT NULL,
-    product_id BIGINT NOT NULL,
-    rating BIGINT NOT NULL,
-    comment TEXT NOT NULL,
-    review_date DATETIME NOT NULL
-);
 
 -- Drop Table
 DROP TABLE users;
@@ -83,7 +75,6 @@ DROP TABLE shipments;
 DROP TABLE products;
 DROP TABLE product_categories;
 DROP TABLE product_category_map;
-DROP TABLE product_reviews;
 
 -- Show All Tables
 SHOW TABLES;
@@ -111,8 +102,4 @@ ALTER TABLE
     product_category_map ADD FOREIGN KEY(product_id) REFERENCES products(id);
 ALTER TABLE
     product_category_map ADD FOREIGN KEY(category_id) REFERENCES product_categories(id);
-ALTER TABLE
-    product_reviews ADD FOREIGN KEY(user_id) REFERENCES users(id);
-ALTER TABLE
-    product_reviews ADD FOREIGN KEY(product_id) REFERENCES products(id);
 
