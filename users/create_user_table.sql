@@ -1,0 +1,9 @@
+CREATE TABLE users(
+    id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    username VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    phone BIGINT NOT NULL,
+    gender ENUM('MALE', 'FEMALE') NOT NULL,
+    UNIQUE (username)
+);
